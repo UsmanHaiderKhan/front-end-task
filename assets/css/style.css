@@ -841,6 +841,43 @@ html {
   #home .line-6 .circle-position-5 {
     left: -12px;
   }
+  #home .side-angle1{
+    display: none;
+  }
+  #home .side-angle2{
+    display: none;
+  }
+  #home .side-angle3{
+    display: none;
+  }
+  #home .side-angle4{
+    display: none;
+  }
+  #home .side-angle5{
+    display: none;
+  }
+  #home .side-angle6{
+    display: none;
+  }
+  #home .side-angle7{
+    display: none;
+  }
+  #home .side-angle8{
+    display: none;
+  }
+  #home .side-angle9{
+    display: none;
+  }
+  #home .side-angle10{
+    display: none;
+  }
+  #home .side-angle11{
+    display: none;
+  }
+  #home .side-angle12{
+    display: none;
+  }
+ 
 }
 @media only screen and (max-width: 763px) {
 }
@@ -891,89 +928,53 @@ html {
   #home .line-6 {
     height: 81vh;
   }
-  /* 
-  #home .line-1 .circle-position {
-    right: -9px;
-  }
-  #home .line-1 .circle-position-1 {
-    right: -9px;
-  }
-  #home .line-1 .circle-position-2 {
-    right: -9px;
-  }
-  #home .line-1 .circle-position-3 {
-    right: -9px;
-  }
-  #home .line-1 .circle-position-4 {
-    right: -9px;
-  }
-  #home .line-1 .circle-position-5 {
-    right: -9px;
-  }
-  #home .line-2 .circle-position {
-    right: -9px;
-  }
-  #home .line-2 .circle-position-1 {
-    right: -9px;
-  }
-  #home .line-2 .circle-position-2 {
-    right: -9px;
-  }
-  #home .line-2 .circle-position-3 {
-    right: -9px;
-  }
-  #home .line-2 .circle-position-4 {
-    right: -9px;
-  }
-  #home .line-2 .circle-position-5 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-1 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-2 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-3 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-4 {
-    bottom: 132px;
-    right: -9px;
-  }
-  #home .line-3 .circle-position-5 {
-    bottom: 31px;
-    right: -9;
-  } */
+  
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 415px) { 
 }
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 412px) {
+  #home .line-1 {
+  height:71.6vh;
+   }
+#home .line-2 {
+  height:71.6vh;
+}
+#home .line-3 {
+  height:71.6vh;
+}
+#home .line-4 {
+  height:71.6vh;
+}
+#home .line-5 {
+  height:71.6vh;
+}
+#home .line-6 {
+  height:71.6vh;
+}
+ 
 }
 @media only screen and (max-width: 398px) {
   #home .line-1 {
-    height: 87vh;
+    height: 73.6vh;
   }
   #home .line-2 {
-    height: 87vh;
+    height: 73.6vh;
   }
   #home .line-3 {
-    height: 87vh;
+    height: 73.6vh;
   }
   #home .line-4 {
-    height: 87vh;
+    height: 73.6vh;
   }
   #home .line-5 {
-    height: 87vh;
+    height: 73.6vh;
   }
   #home .line-6 {
-    height: 87vh;
+    height: 73.6vh;
   }
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 376px)  {
+  
 }
 @media only screen and (max-width: 361px) {
   #home .line-1 {
@@ -994,23 +995,7 @@ html {
   #home .line-6 {
     height: 92vh;
   }
-  /* #home .line-3 .circle-position-1 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-2 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-3 {
-    right: -9px;
-  }
-  #home .line-3 .circle-position-4 {
-    bottom: 126px;
-    right: -9px;
-  }
-  #home .line-3 .circle-position-5 {
-    bottom: 25px;
-    right: -9;
-  } */
+  
 }
 @media only screen and (max-width: 321px) {
   #home .line-1 {
@@ -1045,13 +1030,13 @@ html {
   }
 
   #home .line-1 {
-    height: 78vh;
+    height: 77vh;
   }
   #home .line-2 {
-    height: 78vh;
+    height: 77vh;
   }
   #home .line-3 {
-    height: 78vh;
+    height: 77vh;
   }
 
   /* Left-Side */
@@ -1111,13 +1096,13 @@ html {
   }
 
   #home .line-4 {
-    height: 78vh;
+    height: 77vh;
   }
   #home .line-5 {
-    height: 78vh;
+    height: 77vh;
   }
   #home .line-6 {
-    height: 78vh;
+    height: 77vh;
   }
   /* Right-Side */
   #home .line-4 .circle-position {
@@ -1205,6 +1190,24 @@ html {
   }
 }
 @media only screen and (max-width: 812px) and (orientation: landscape) {
+   #home .line-1 {
+  height: 158vh;
+}
+#home .line-2 {
+  height: 158vh;
+}
+#home .line-3 {
+  height: 158vh;
+}
+#home .line-4 {
+  height: 158vh;
+}
+#home .line-5 {
+  height: 158vh;
+}
+#home .line-6 {
+  height: 158vh;
+}
 }
 @media only screen and (max-width: 740px) and (orientation: landscape) {
   #home .card {
