@@ -49,12 +49,12 @@ html {
 }
 #home .side-angle5 {
   position: absolute;
-  bottom: 98px;
+  bottom: 136px;
   right: -29px;
 }
 #home .side-angle6 {
   position: absolute;
-  bottom: -2px;
+  bottom: 36px;
   right: -29px;
 }
 
@@ -81,12 +81,12 @@ html {
 }
 #home .side-angle11 {
   position: absolute;
-  bottom: 98px;
+  bottom: 138px;
   left: -28px;
 }
 #home .side-angle12 {
   position: absolute;
-  bottom: -2px;
+  bottom: 38px;
   left: -28px;
 }
 
@@ -456,73 +456,69 @@ html {
 .side-position-1 {
   position: absolute;
   left: 27px;
-  top: 95px;
+  top: 73px;
 }
-.side-position-1 {
-  position: absolute;
-  left: 27px;
-  top: 95px;
-}
+
 .side-position-2 {
   position: absolute;
   left: 27px;
-  top: 161px;
+  top: 138px;
 }
 .side-position-3 {
   position: absolute;
   left: 27px;
-  top: 226px;
+  top: 204px;
 }
 .side-position-4 {
   position: absolute;
   left: 27px;
-  bottom: 230px;
+  bottom: 270px;
 }
 .side-position-5 {
   position: absolute;
   left: 27px;
-  bottom: 95px;
+  bottom: 203px;
 }
 .side-position-6 {
   position: absolute;
   left: 27px;
-  bottom: 162px;
+  bottom: 135px;
 }
 /* Side Angle Right */
 .side-position-7 {
   position: absolute;
   right: 27px;
-  top: 95px;
+  top: 73px;
   z-index: -1;
 }
 .side-position-8 {
   position: absolute;
   right: 27px;
-  top: 161px;
+  top: 138px;
   z-index: -1;
 }
 .side-position-9 {
   position: absolute;
   right: 27px;
-  top: 226px;
+  top: 204px;
   z-index: -1;
 }
 .side-position-10 {
   position: absolute;
   right: 27px;
-  bottom: 230px;
+  bottom: 270px;
   z-index: -1;
 }
 .side-position-11 {
   position: absolute;
   right: 27px;
-  bottom: 162px;
+  bottom: 203px;
   z-index: -1;
 }
 .side-position-12 {
   position: absolute;
   right: 27px;
-  bottom: 95px;
+  bottom: 135px;
   z-index: -1;
 }
 .side-angle-size {
@@ -560,7 +556,9 @@ html {
   #home .main-text {
     font-size: 24px;
   }
-
+  #home .card-margin-top {
+    margin-top: 9.1rem;
+   }
   #home .line-1 {
     height: 43.5vh;
   }
@@ -690,6 +688,42 @@ html {
   }
   #home .line-6 .circle-position-5 {
     left: -12px;
+  }
+  #home .side-angle1{
+    right: -32px;
+  }
+  #home .side-angle2{
+    right: -32px;
+  }
+  #home .side-angle3{
+    right: -32px;
+  }
+  #home .side-angle4{
+    right: -32px;
+  }
+  #home .side-angle5{
+    right: -32px;
+  }
+  #home .side-angle6{
+    right: -32px;
+  }
+  #home .side-angle7{
+    left: -32px;
+  }
+  #home .side-angle8{
+    left: -32px;
+  }
+  #home .side-angle9{
+    left: -32px;
+  }
+  #home .side-angle10{
+    left: -32px;
+  }
+  #home .side-angle11{
+    left: -32px;
+  }
+  #home .side-angle12{
+    left: -32px;
   }
 }
 @media only screen and (max-width: 993px) {
@@ -1028,7 +1062,7 @@ html {
     border-radius: 28px;
     height: 77%;
   }
-
+ 
   #home .line-1 {
     height: 77vh;
   }
@@ -1161,128 +1195,393 @@ html {
   }
 }
 @media only screen and (max-width: 830px) and (orientation: landscape) {
-  .media-mt {
-    margin-top: 4.5rem;
+  
+  .order-3{
+    order:1;
+  } 
+  .order-1{
+    order:3;
   }
+  .col-lg-4{
+    width: 33.33%;
+  }
+  .media-mt {
+    margin-top: 0rem;
+  }
+.container, .container-sm {
+    max-width: 100%;
+}
+
+#home .yellow-circle {
+    width: 46px;
+    height: 46px;
+    font-size: 14px;
+  }#home .blue-circle {
+    width: 46px;
+    height: 46px;
+    font-size: 14px;
+  }#home .black-circle {
+    width: 46px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+#home .card-margin-top {
+  margin-top: 4rem;
+}
+.mt-5, .my-5 {
+  margin-top: 1.5rem!important;
+}
+#home .main-text {
+  font-size: 21.3px;
+} 
   #home .line-1 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
   }
   #home .line-2 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
   }
   #home .line-3 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
   }
   #home .line-4 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
   }
   #home .line-5 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
   }
   #home .line-6 {
-    height: 142vh;
+    height: 113vh;
     width: 2%;
+  }
+  #home .side-angle1 {
+    right: -34px;
+    top: -11px;
+  }
+  #home .side-angle2 {
+    right: -34px;
+    top: 72px;
+  }
+  #home .side-angle3 {
+    right: -34px;
+    top: 153px;
+  }
+  #home .side-angle4 {
+    right: -34px;
+    top: 230px;
+  }
+  #home .side-angle5 {
+    bottom: 108px;
+    right: -34px;
+  }
+  #home .side-angle6 {
+    bottom: 26px;  
+    right: -34px;
+  }
+  #home .side-angle7 {
+    left: -32px;
+  }
+  #home .side-angle8 {
+    left: -32px;top: 72px;
+  }
+  #home .side-angle9 {
+    left: -32px; top: 153px;
+  }
+ 
+  #home .side-angle10 {
+    left: -32px; top: 230px;
+  }
+  #home .side-angle11 {
+    bottom: 108px;
+    left: -32px;
+  }
+  #home .side-angle12 {
+    bottom: 26px;  
+    left: -32px;
+  }
+  #home .circle-text1 {
+    font-size: 12px;
+  }
+  #home .circle-text2 {
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 812px) and (orientation: landscape) {
    #home .line-1 {
-  height: 158vh;
+  height: 124vh;
 }
 #home .line-2 {
-  height: 158vh;
+  height: 124vh;
 }
 #home .line-3 {
-  height: 158vh;
+  height: 124vh;
 }
 #home .line-4 {
-  height: 158vh;
+  height: 124vh;
 }
 #home .line-5 {
-  height: 158vh;
+  height: 124vh;
 }
 #home .line-6 {
-  height: 158vh;
+  height: 124vh;
 }
+#home .side-angle5 {
+  bottom: 133px;
+}
+#home .side-angle6  {
+  bottom: 55px;
+}
+#home .side-angle11 {
+  bottom: 131px;
+}
+#home .side-angle12 {
+  bottom: 56px;
+}
+
 }
 @media only screen and (max-width: 740px) and (orientation: landscape) {
+  .mt-5, .my-5 {
+    margin-top: 2rem!important;
+  }
+ 
+  #home .card-margin-top {
+    margin-top: 1.5rem;
+  }
+  #home .main-text {
+    font-size: 15px;
+  } 
   #home .card {
     height: auto;
+  }
+  #home .line-1{
+    height: 122vh;width: 1.3%;right: 37%;
+  }
+  #home .line-2{
+    height: 122vh;width: 1.3%;right: 21%;
+  }
+  #home .line-3{
+    height: 122vh;width: 1.3%;right: 5%;
+  }
+  #home .line-4{
+    height: 122vh;width: 1.3%;left: 37%;
+  }
+  #home .line-5{
+    height: 122vh;width: 1.3%;left: 21%;
+  }
+  #home .line-6{
+    height: 122vh;width: 1.3%;left: 5%;
   }
   #home .line-1 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
   }
   #home .line-2 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
   }
   #home .line-3 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
   }
   #home .line-4 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
   }
   #home .line-5 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
   }
   #home .line-6 .circle {
     width: 30px;
     height: 30px;
+    font-size: 12px;
+  }
+  #home .side-angle1{
+    display: block;
+    top: -3px;
+  }
+  #home .side-angle2{
+    display: block;
+    top: 83px;
+  }
+  #home .side-angle3{
+    display: block;
+    top: 167px;
+  }
+  #home .side-angle4{
+    display: block;top: 253px;
+  }
+  #home .side-angle5{
+    display: block;bottom: 85px;
+  }
+  #home .side-angle6{
+    display: block;
+    bottom: 2px;
+  }
+  #home .side-angle7{
+    display: block;
+  }
+  #home .side-angle8{
+    display: block;
+    top: 83px;
+  }
+  #home .side-angle9{
+    display: block;
+    top: 167px;
+  }
+  #home .side-angle10{
+    display: block;
+    top: 253px;
+  }
+  #home .side-angle11{
+    display: block;bottom: 85px;
+  }
+  #home .side-angle12{
+    display: block;
+    bottom: 2px;
   }
 }
-@media only screen and (max-width: 736px) and (orientation: landscape) {
-}
-@media only screen and (max-width: 732px) and (orientation: landscape) {
-}
-@media only screen and (max-width: 668px) and (orientation: landscape) {
+
+@media only screen and (max-width: 721px) and (orientation: landscape) {
   #home .line-1 {
-    height: 163vh;
-  }
+    height: 94vh;
+     }
   #home .line-2 {
-    height: 163vh;
+    height: 94vh;
   }
   #home .line-3 {
-    height: 163vh;
+    height: 94vh;
   }
   #home .line-4 {
-    height: 163vh;
+    height: 94vh;
   }
   #home .line-5 {
-    height: 163vh;
+    height: 94vh;
   }
   #home .line-6 {
-    height: 163vh;
+    height: 94vh;
+  }
+}
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+  #home .box-background .point-text {
+    font-size: 14px;
+  }
+  #home .line-1 {
+    height: 123vh;
+  }
+  #home .line-2 {
+    height: 123vh;
+  }
+  #home .line-3 {
+    height: 123vh;
+  }
+  #home .line-4 {
+    height: 123vh;
+  }
+  #home .line-5 {
+    height: 123vh;
+  }
+  #home .line-6 {
+    height: 123vh;
+  }
+  #home .side-angle1 {
+    top: -7px;
+}
+#home .side-angle7 {
+  top: -7px;
+}
+  #home .side-angle2 {
+    top: 71px;
+}
+#home .side-angle8 {
+  top: 71px;
+}
+  #home .side-angle3 {
+    top: 152px;
+}
+#home .side-angle9 {
+  top: 152px;
+}
+  #home .side-angle4 {
+    top: 227px;
+}
+#home .side-angle10 {
+  top: 227px;
+}
+  #home .side-angle5 {
+    bottom: 114px;
+}
+#home .side-angle11 {
+  bottom: 114px;
+}
+  #home .side-angle6 {
+    bottom: 37px;
+  }
+  #home .side-angle12 {
+    bottom: 37px;
   }
 }
 
 @media only screen and (max-width: 641px) and (orientation: landscape) {
+   #home .line-1 {
+  height: 128vh;
+   }
+#home .line-2 {
+  height: 128vh;
+}
+#home .line-3 {
+  height: 128vh;
+}
+#home .line-4 {
+  height: 128vh;
+}
+#home .line-5 {
+  height: 128vh;
+}
+#home .line-6 {
+  height: 128vh;
+}
+#home .main-text {
+  font-size: 14.24px;
+}
 }
 
 @media only screen and (max-width: 569px) and (orientation: landscape) {
   #home .line-1 {
-    height: 183vh;
+    height: 140vh;
   }
   #home .line-2 {
-    height: 183vh;
+    height: 140vh;
   }
   #home .line-3 {
-    height: 183vh;
+    height: 140vh;
   }
   #home .line-4 {
-    height: 183vh;
+    height: 140vh;
   }
   #home .line-5 {
-    height: 183vh;
+    height: 140vh;
   }
   #home .line-6 {
-    height: 183vh;
-  }
+    height: 140vh;
+  }.p-4 {
+    padding: 1.2rem!important;
+}#home .main-text {
+  font-size: 13.8px;
+}#home .box-background .point-text {
+  font-size: 11px;
+}
+#home .card-margin-top{
+  margin-top: 0;
+}
 }
